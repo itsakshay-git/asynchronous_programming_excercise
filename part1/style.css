@@ -1,0 +1,81 @@
+body{
+    font-family: "Jersey 10", serif;
+    background-color: rgba(53, 53, 53, 1);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#button_section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30vh;
+}
+
+#button_section p {
+    font-size: 250px;
+    margin: 0;
+    color: white;
+}
+
+#button_section button{
+    border: none;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    font-size: 30px;
+    font-family: "Jersey 10", serif;
+    background-color: rgb(236, 238, 74);
+    cursor: pointer;
+}
+
+header{
+    height: 100vh;
+}
+#container{
+    display: none;
+    height: 65vh;
+    background-color: rgba(86, 84, 84, 0.2);
+    margin-left: 90px;
+    margin-right: 90px;
+    border-radius: 20px;
+    overflow-y: scroll;
+}
+
+.delay_message{
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 0;
+}
+
+.post_title{
+    background-color: rgba(86, 86, 86, 1);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin: 15px;
+    color: white;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+}
+
+::-webkit-scrollbar-track{
+    background: yellow;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: gray;
+    border-radius: 6px;
+}
